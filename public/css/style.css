@@ -1,0 +1,45 @@
+:root {
+    --main-color: #fdbb28;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato", sans-serif;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+.thread-thumbnail {
+    font-weight: 900;
+}
+
+.reply-thumbnail,
+.reply-body {
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.reply-action {
+    font-size: 12px;
+    padding: 3px 10px;
+    margin-top: 3px;
+}
+
+.btn-main {
+    background: var(--main-color);
+    color: #fff;
+}
+
+.navbar-nav .active {
+    border-bottom: 3px solid var(--main-color);
+}
+
+.navbar-nav .nav-link {
+    padding: 5px 10px;
+}
