@@ -13,9 +13,9 @@
             @endif
             @if(count($threads) > 0)
                 @foreach($threads as $thread)
-                    <?php $cond = count($thread->replies); $someText = "Answer" ?>
+                    <?php $cond = count($thread->replies); $someText = "Reply"; ?>
                     @if($cond!=1)
-                        <?php $someText = "Answers"; ?>
+                        <?php $someText = "Replies"; ?>
                     @endif
                     <div class="card rounded my-2">
                         <div class="card-body">
@@ -33,7 +33,7 @@
                             </p>
 
                             <div class="ml-2">
-                                <small class="text-muted mt-0">{{$thread->replies->sum("body")}} replies</small>
+                                <small class="text-muted mt-0"> {{$thread->replies->count()}} {{$someText}}</small>
                             </div>
 
                         </div>
