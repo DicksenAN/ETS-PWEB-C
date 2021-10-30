@@ -1,72 +1,121 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+# Web Programming C Midterms
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
+| **No** | **Name** | **NRP** | 
+| ------------- | ------------- | --------- |
+| 1 | James Rafferty Lee  | 05111940000055 | 
+| 2 | Dicksen Alfersius Novian | 05111940000076 |
+| 3 | Cliffton Delias Perangin Angin | 05111940000181 |
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Overview
+In this web project we used the Laravel Framework to create a website that has CRUD ( Create, Read, Update, Delete) features alongside our own added functionalities. The Website is called StockTalk. It is an interactive, community based forum similar to Reddit and Quora. Here we can make accounts and post threads, we can also engage in other users’ threads by replying to their respective threads.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The website link is https://pweb-stocktalk.000webhostapp.com/ 
+The Github repository link is https://github.com/DicksenAN/ETS-PWEB-C 
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The details of our website’s database design, list of features, screenshots and brief webpage explanation are as written below.
+## Database Design
+Conceptual Data Model ( CDM )
 
-## Learning Laravel
+![StockTalk_CDM](https://user-images.githubusercontent.com/65166398/139537935-6e3d2eae-9bfa-42b2-b008-644e72039a8e.jpg)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Physical Data Model ( PDM )
 
-## Laravel Sponsors
+![StockTalk_PDM](https://user-images.githubusercontent.com/65166398/139538119-efc60934-beb1-4a4b-b33b-8abcb6d07f41.jpg)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
+## List of Features
 
-## Contributing
+These are the features of our website. The explanation of each feature is explained in the next sections.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
-## Security Vulnerabilities
+* Login, logout and registration account (mandatory)
+* Make threads
+* Edit threads
+* Delete threads
+* Make reply
+* Edit reply
+* Delete reply
+* Pagination of threads
+* Edit profile
+* Home page (can see your own threads and replies)
+* Search Threads
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Implementation,  Screenshot & Webpage Explanation
+Landing Page
 
-## License
+This page is the first page that you see when visiting the website. From here, you can login or register to your account.
 
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Login Page
+
+This is the login page of the website. Here we can login to our account and if we don’t have an account, we can make one using the link in this page.
+
+Register Page
+
+This is the register page of the website. We can register / make a new account to join this website’s community
+
+Make Threads
+
+By clicking the “add question”, you can make and submit a new thread with question and question details.
+
+Edit Threads
+
+If you want to edit your threads, you can do so by clicking the “edit” button. Here you can fix mistakes, do clarifications, and generally make your thread better.
+
+Delete Threads
+
+You can delete your thread here by clicking the “Delete” button. Once you’ve deleted your thread, it will be gone.
+
+Make Reply
+
+ 
+ 
+If you have choose a thread available then you can make a reply for that thread. By clicking the answer button you can type your reply and then click the submit button to post it.
+
+Edit Reply
+            By clicking the green button you can edit your reply. After you click it you will be redirected to the page where you can edit your original reply. After you type your new or edited reply you can click the submit button to post it.
+ 
+Delete reply
+
+By clicking the red button you can delete your reply. After you clicked it your reply will be deleted and a pop up message will appear to tell you that your reply has been deleted 
+successfully.
+
+Pagination of Threads
+In this website threads will be automatically paginated. After 6 threads you will have to go to the next page by clicking the button at the end of the page. In the next page there will be another threads available.
+ 
+Edit Profile
+At top right corner of the page you can find the edit profile button. You can edit your profile by clicking the edit profile button. After you click the edit profile button you will be redirected to the edit profile page then you can edit your profile and click the update button to update your profile information.
+ 
+Home Page
+In the homepage you can see all of the threads(question) and reply(answer) you have posted in this website.
+ 
+
+Search threads
+You can search for a specific thread by typing your question in the search section at the top of the page. After you type your question you can click the search button to search across the website a thread that answers your  question. After that you will be redirected to the page containing threads that answer your question.
+
+## Analysis and Evaluation
+From our assignment, we have analyzed the needs and business model of this website. We are modeling this website after similar community based forums like Quora and Reddit. We implemented this concept using laravel framework.
+	We have CRUD features including but not limited to login, register, and edit accounts. We also made sure that threads and replies are customizable and deletable. This Laravel framework is an MVC based framework where Model / Database, View / UI, and Controller, are separated so we can focus on each module and code more expressively and elegantly.
+	We have evaluated our website and found that although we have fulfilled the needs and business  requirements, we are aware that there are areas where we can improve on this website. We can improve on adding more features like sub-thread, newsletter, etc.
+
+## Conclusion
+From this assignment, we can conclude that CRUD and MVC go hand-to-hand in development, Laravel is a decent framework for MVC and php website application. And we have made this website well, with some improvements to be made.
+
+
+## Contributions
+During this assignment, we have worked in unity, with James’ Website as a working template to be deployed and improved. The details of our contributions are as follows :
+
+
+* James Rafferty Lee  [40%]	: 
+    * Website Template
+    * Laravel files
+    * Report
+* Dicksen Alfersius Novian [ 30% ] :
+    * Website deployment
+    * CDM & PDM
+    * Report
+* Cliffton Delias Perangin Angin [30%] :
+    * Website analysis
+    * Report
+
